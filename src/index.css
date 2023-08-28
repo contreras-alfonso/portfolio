@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos para la barra de desplazamiento en navegadores basados en WebKit (Chrome, Safari) */
+/* Cambiar el color de fondo */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Cambiar el color del pulgar (la parte arrastrable) */
+::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 6px; /* Bordes redondeados para el pulgar */
+}
+
+/* Cambiar el color de la pista (área detrás del pulgar) */
+::-webkit-scrollbar-track {
+  background-color: #262626;
+}
