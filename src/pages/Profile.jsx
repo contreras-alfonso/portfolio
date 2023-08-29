@@ -7,15 +7,15 @@ const Profile = () => {
 
   return (
     <>
-    <section className="p-5 md:p-20">
+    <section className="p-5 pt-10 md:p-20">
       <div className="slide-in-top">
         <p className="font-black text-4xl md:text-6xl text-neutral-800 uppercase max-sm:hidden">Resumen</p>
         <h1 className='font-black text-3xl md:text-5xl text-white uppercase text-center'>Sobre <span className='text-yellow-500'>Mí</span></h1>
-        <div className="flex flex-col gap-10 xl:flex-row py-20">
+        <div className="flex flex-col gap-10 xl:flex-row pt-10 pb-20 md:py-20">
           <div className="xl:w-1/2">
             <h2 className='font-bold text-2xl md:text-3xl text-white uppercase'>Información Personal</h2>
-            <div className="flex max-sm:flex-col py-10">
-              <div className="w-1/2 space-y-3">
+            <div className="flex max-sm:flex-col max-md:gap-3 md:gap-10 py-10">
+              <div className="xl:w-1/2 space-y-3">
                 <p className='text-gray-300'>Nombres: <span className='text-white font-semibold'>Paulino Alfonso</span></p>
                 <p className='text-gray-300'>Apellidos: <span className='text-white font-semibold'>Contreras Gómez</span></p>
                 <p className='text-gray-300'>Edad: <span className='text-white font-semibold'>23 Años</span></p>
@@ -23,7 +23,7 @@ const Profile = () => {
                 <p className='text-gray-300'>País: <span className='text-white font-semibold'>Perú</span></p>
               </div>
 
-              <div className="w-1/2 space-y-3">
+              <div className="xl:w-1/2 space-y-3">
                 <p className='text-gray-300'>Dirección: <span className='text-white font-semibold'>Lima</span></p>
                 <p className='text-gray-300'>Email: <a href="mailto:contrerasalfonso.lino@gmail.com" className='text-white font-semibold hover:text-yellow-500'>contrerasalfonso.lino@gmail.com</a></p>
                 <p className='text-gray-300'>Repositorio: <a href="https://github.com/contreras-alfonso" target="_blank" className='text-white font-semibold hover:text-yellow-500'>https://github.com/contreras-alfonso</a></p>
