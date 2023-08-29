@@ -32,7 +32,7 @@ const Profile = () => {
             </div>
 
 
-            <a href="/src/docs/CV Paulino Alfonso Contreras Gómez.pdf" download className="font-semibold cursor-pointer border border-yellow-500 rounded-full relative inline-flex items-center justify-start overflow-hidden transition-all   group">
+            <a href="/src/docs/CV - PAULINO ALFONSO CONTRERAS GOMEZ.pdf" download className="font-semibold cursor-pointer border border-yellow-500 rounded-full relative inline-flex items-center justify-start overflow-hidden transition-all   group">
               <span className="w-0 rounded bg-yellow-500 absolute ease-out duration-500 transition-all group-hover:w-full group-hover:h-full z-1"></span>
               <span className=" text-white w-full group-hover:text-white z-10 pl-10 pr-3 uppercase">
               Descargar CV {''}
