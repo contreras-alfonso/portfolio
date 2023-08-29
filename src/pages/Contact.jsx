@@ -11,16 +11,16 @@ const Contact = () => {
 
   return (
     <>
-      <section className="p-20 h-screen">
-        <p className="font-black text-6xl text-neutral-800 uppercase">Contacto</p>
-        <h1 className='font-black text-5xl text-white uppercase text-center'>Ponte en <span className='text-yellow-500'>Contacto</span></h1>
-        <div className='flex py-20'>
-          <div className='w-2/5 space-y-7'>
-            <p className="font-bold text-3xl text-white">DON'T BE SHY !</p>
-            <p className="text-white text-lg">No dudes en ponerte en contacto conmigo. Siempre estoy abierto a discutir nuevos proyectos, ideas y oportunidades.</p>
+      <section className="p-5 md:p-20 slide-in-top">
+        <p className="font-black text-4xl md:text-6xl text-neutral-800 uppercase max-sm:hidden">Contacto</p>
+        <h1 className='font-black text-3xl md:text-5xl text-white uppercase text-center'>Ponte en <span className='text-yellow-500'>Contacto</span></h1>
+        <div className='flex gap-10 flex-col lg:flex-row pt-10 pb-20 md:py-20'>
+          <div className='lg:w-2/5 space-y-7'>
+            <p className="font-bold text-3xl text-white uppercase">Siéntete libre de hablar</p>
+            <p className="text-white text-lg">No dudes ponerte en contacto conmigo. Siempre estoy abierto a discutir nuevos proyectos, ideas y oportunidades.</p>
 
             <div className="space-y-5">
-              <div className="flex items-center gap-3">
+              <div className="flex  items-center gap-3">
                 <i className="fa-solid fa-circle-phone text-4xl text-yellow-500"></i>
                 <div>
                   <p className="uppercase font-bold text-neutral-300 text-lg">Teléfono</p>
@@ -32,7 +32,7 @@ const Contact = () => {
                 <i className="fa-solid fa-envelopes text-3xl text-yellow-500"></i>
                 <div>
                   <p className="uppercase font-bold text-neutral-300 text-lg">Email</p>
-                  <p className=" text-white">contrerasalfonso.lino@gmail.com</p>
+                  <a href="mailto:contrerasalfonso.lino@gmail.com" className="text-white hover:text-yellow-500">contrerasalfonso.lino@gmail.com</a>
                 </div>
               </div>
 
@@ -40,15 +40,15 @@ const Contact = () => {
                 <i className="fa-brands fa-github text-4xl text-yellow-500"></i>
                 <div>
                   <p className="uppercase font-bold text-neutral-300 text-lg">GitHub</p>
-                  <p className=" text-white">https://github.com/contreras-alfonso</p>
+                  <a href="https://github.com/contreras-alfonso" target="_blank" className=" text-white hover:text-yellow-500">https://github.com/contreras-alfonso</a>
                 </div>
               </div>
             </div>
 
           </div>
 
-          <div  className='w-3/5 space-y-7 px-20'>
-            <div className='flex items-center gap-5'>
+          <div  className='lg:w-3/5 space-y-7 lg:px-20'>
+            <div className='flex flex-col lg:flex-row items-center gap-5'>
               <input type="text" placeholder='Tu nombre' className='w-full border border-neutral-800 focus:outline-none focus:border-yellow-500 bg-neutral-800 text-white rounded-full py-3 px-5'/>
               <input type="email" placeholder='Tu email' className='w-full border border-neutral-800 focus:outline-none focus:border-yellow-500 bg-neutral-800 text-white rounded-full py-3 px-5'/>
             </div>

@@ -18,3 +18,49 @@
 ::-webkit-scrollbar-track {
   background-color: #262626;
 }
+
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.slide-in-bottom {
+  animation: slide-in-bottom 1s ease-out forwards;
+}
+
+.slide-in-top {
+  animation: slide-in-top 1s ease-out forwards;
+}
+
+.slide-in-right {
+  animation: slide-in-right 1s ease-out forwards;
+}
