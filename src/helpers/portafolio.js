@@ -8,6 +8,10 @@ import imagenDevX1 from '../images/portfolio/devx1.png';
 import imagenDevX2 from '../images/portfolio/devx2.png';
 import imagenDevX3 from '../images/portfolio/devx3.png';
 import imagenDevX4 from '../images/portfolio/devx4.png';
+import imagenDevX5 from '../images/portfolio/devx5.png';
+import imagenDevX6 from '../images/portfolio/devx6.png';
+import imagenDevX7 from '../images/portfolio/devx7.png';
+import imagenDevX8 from '../images/portfolio/devx8.png';
 import imagenGuitart from '../images/portfolio/guitart.png';
 import imagenGuitart1 from '../images/portfolio/guitart1.png';
 import imagenGuitart2 from '../images/portfolio/guitart2.png';
@@ -48,7 +52,11 @@ const informacionPortafolio = () => {
             imagenDevX1,
             imagenDevX2,
             imagenDevX3,
-            imagenDevX4
+            imagenDevX4,
+            imagenDevX5,
+            imagenDevX6,
+            imagenDevX7,
+            imagenDevX8
           ]
         },
         {
