@@ -1,16 +1,16 @@
-import logoHTML from '../images/html-logo.png';
-import logoCSS from '../images/css-logo.png';
-import logoJavascript from '../images/javascript-logo.png';
-import logoPHP from '../images/php-logo.png';
-import logoReact from '../images/react-logo.png';
-import logoNode from '../images/node-logo.png';
-import logoExpress from '../images/express-logo.png';
-import logoMysql from '../images/mysql-logo.png';
-import logoMongo from '../images/mongo-logo.png';
-import logoTailwind from '../images/tailwind-logo.png';
-import logoBootstrap from '../images/bootstrap-logo.png';
-import logoGit from '../images/git-logo.png';
-import logoGithub from '../images/github-logo.png';
+import logoHTML from '../images/html-logo.avif';
+import logoCSS from '../images/css-logo.avif';
+import logoJavascript from '../images/javascript-logo.avif';
+import logoPHP from '../images/php-logo.avif';
+import logoReact from '../images/react-logo.avif';
+import logoNode from '../images/node-logo.avif';
+import logoExpress from '../images/express-logo.avif';
+import logoMysql from '../images/mysql-logo.avif';
+import logoMongo from '../images/mongo-logo.avif';
+import logoTailwind from '../images/tailwind-logo.avif';
+import logoBootstrap from '../images/bootstrap-logo.avif';
+import logoGit from '../images/git-logo.avif';
+import logoGithub from '../images/github-logo.avif';
 
 const obtenerSkills = () => {
     return [
