@@ -47,7 +47,7 @@ const Profile = () => {
             <div className="border-l border-neutral-500 p-4 space-y-3 py-5">
               <span className="bg-neutral-800 text-white px-4 py-1 rounded-full">2019 - Actualidad</span>
               <p className="uppercase text-white font-bold text-lg"><i className="fa-solid fa-badge-check text-primaryColor"></i> Ingeniería de sistemas - <span className="text-neutral-300">Untels</span></p>
-              <p className="text-white">Actualmente estudiante de la carrera de Ing. de Sistemas (9vo ciclo).</p>
+              <p className="text-white">Actualmente estudiante de la carrera de Ing. de Sistemas (9no ciclo).</p>
             </div>
 
           </div>
