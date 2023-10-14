@@ -63,8 +63,8 @@ const informacionPortafolio = () => {
           id:crypto.randomUUID(),
           nombre: 'Orejotas y Colitas',
           tecnologia: 'PHP, HTML, CSS, JavaScript, MySQL',
-          enlace: 'https://orejotasycolitas.online/veterinaria/',
-          estadoEnlace: 1,
+          enlace: 'No disponible',
+          estadoEnlace: 0,
           imagenPrincipal: imagenOrejotasYColitas,
           subImagenes: [
             imagenOrejotasYColitas,

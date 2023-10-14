@@ -14,15 +14,26 @@ import logoGithub from '../images/github-logo.avif';
 
 const obtenerSkills = () => {
     return [
+        // {
+        //   id:crypto.randomUUID(),
+        //   imagen:logoHTML,
+        //   nombre:'HTML'
+        // },
+        // {
+        //   id:crypto.randomUUID(),
+        //   imagen:logoCSS,
+        //   nombre:'CSS'
+        // },
+
         {
           id:crypto.randomUUID(),
-          imagen:logoHTML,
-          nombre:'HTML'
+          imagen:logoPHP,
+          nombre:'PHP'
         },
         {
           id:crypto.randomUUID(),
-          imagen:logoCSS,
-          nombre:'CSS'
+          imagen:logoNode,
+          nombre:'Node JS'
         },
         {
           id:crypto.randomUUID(),
@@ -31,54 +42,40 @@ const obtenerSkills = () => {
         },
         {
           id:crypto.randomUUID(),
-          imagen:logoPHP,
-          nombre:'PHP'
-        },
-        {
-          id:crypto.randomUUID(),
           imagen:logoReact,
           nombre:'React JS'
         },
-        {
-          id:crypto.randomUUID(),
-          imagen:logoNode,
-          nombre:'Node JS'
-        },
+
         // {
         //   id:crypto.randomUUID(),
-        //   imagen:logoExpress,
-        //   nombre:'Express'
+        //   imagen:logoMysql,
+        //   nombre:'MySQL'
         // },
-        {
-          id:crypto.randomUUID(),
-          imagen:logoMysql,
-          nombre:'MySQL'
-        },
-        {
-          id:crypto.randomUUID(),
-          imagen:logoMongo,
-          nombre:'MongoDB'
-        },
+        // {
+        //   id:crypto.randomUUID(),
+        //   imagen:logoMongo,
+        //   nombre:'MongoDB'
+        // },
         {
           id:crypto.randomUUID(),
           imagen:logoTailwind,
           nombre:'Tailwind CSS'
         },
-        {
-          id:crypto.randomUUID(),
-          imagen:logoBootstrap,
-          nombre:'Bootstrap'
-        },
-        {
-          id:crypto.randomUUID(),
-          imagen:logoGit,
-          nombre:'Git'
-        },
-        {
-          id:crypto.randomUUID(),
-          imagen:logoGithub,
-          nombre:'GitHub'
-        },
+        // {
+        //   id:crypto.randomUUID(),
+        //   imagen:logoBootstrap,
+        //   nombre:'Bootstrap'
+        // },
+        // {
+        //   id:crypto.randomUUID(),
+        //   imagen:logoGit,
+        //   nombre:'Git'
+        // },
+        // {
+        //   id:crypto.randomUUID(),
+        //   imagen:logoGithub,
+        //   nombre:'GitHub'
+        // },
       ]
 }
 

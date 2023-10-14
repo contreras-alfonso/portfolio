@@ -38,13 +38,13 @@ export default function ModalPortfolio({modalPortfolio,setModalPortfolio,dataMod
                 <Dialog.Panel className="w-full md:w-11/12 lg:w-4/5  h-fit transform overflow-hidden rounded-2xl bg-neutral-800 p-5 md:p-10 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="uppercase text-center leading-6 text-yellow-500 font-black text-3xl"
+                    className="uppercase text-center leading-6 text-primaryColor font-black text-3xl"
                   >
                     {nombre}
                   </Dialog.Title>
                   <div className="mt-2 py-5 space-y-2">
                     <p className='text-white'><i className="fa-solid fa-code"></i> Tecnologías usadas: <span className='font-bold'>{tecnologia}</span></p>
-                    <p className='text-white'><i className="fa-solid fa-eye"></i> Ver proyecto: {estadoEnlace ? <a className='text-yellow-500 font-bold' href={`${enlace}`} target='_blank'>{enlace}</a> : <span className='text-red-500 font-bold'>{enlace}</span>}</p>
+                    <p className='text-white'><i className="fa-solid fa-eye"></i> Ver proyecto: {estadoEnlace ? <a className='text-primaryColor font-bold' href={`${enlace}`} target='_blank'>{enlace}</a> : <span className='text-red-500 font-bold'>{enlace}</span>}</p>
                   </div>
                   
                   <Slider slides={subImagenes}/>
