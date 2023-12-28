@@ -5,11 +5,11 @@ const Navigate = () => {
 
     const {pathname} = useLocation();
     const renderLink = (to, iconClass, title) => (
-      <a href={to} className="relative inline-flex items-center justify-start overflow-hidden transition-all  group w-[180px]">
+      <Link to={to} className="relative  overflow-hidden transition-all  group min-lg:w-[180px] w-[185px] mx-auto flex items-center justify-center">
         
-        <span className="bg-neutral-900 w-0 rounded-full  absolute ease-out duration-500 transition-all group-hover:w-full group-hover:h-full z-10 text-white"></span>
+        <span className="max-lg:hidden bg-neutral-900 w-0 rounded-full  absolute ease-out duration-500 transition-all group-hover:w-full group-hover:h-full z-10 text-white"></span>
         
-        <span className="opacity-0 text-white font-bold w-full group-hover:opacity-100 z-20 pl-10 pr-3 uppercase text-center text-sm italic duration-300">
+        <span className="max-lg:hidden opacity-0 text-white font-medium w-full group-hover:opacity-100 z-20 pl-10 pr-3 uppercase text-center text-sm italic duration-300">
               {title}
         </span>
         
@@ -19,7 +19,7 @@ const Navigate = () => {
           } ${iconClass}  hover:bg-primaryColor transition-all duration-300 rounded-full p-4 relative z-30 text-white`}
         ></span>
         
-      </a>
+      </Link>
     );
   
     return (
