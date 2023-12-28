@@ -57,7 +57,7 @@ const Profile = () => {
         <hr className=" h-0   border-1 border-neutral-950/20 rounded mx-auto"/>
 
 
-        <div className="max-md:pb-20 slide-in-bottom">
+        <div className="max-md:pb-20 slide-in-top">
           <h2 className='font-bold text-2xl md:text-3xl text-white uppercase text-center my-12'>Mis Skills</h2>
           <div className="w-5/6 mx-auto grid max-sm:grid-cols-[repeat(auto-fit,minmax(120px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(170px,1fr))] gap-6">
             { skills.map(e=>(

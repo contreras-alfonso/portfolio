@@ -37,9 +37,41 @@ import imagenCrm1 from '../images/portfolio/crm1.avif';
 import imagenCrm2 from '../images/portfolio/crm2.avif';
 import imagenCrm3 from '../images/portfolio/crm3.avif';
 import imagenCrm4 from '../images/portfolio/crm4.avif';
+import imagenIot1 from '../images/portfolio/iot1.avif';
+import imagenIot2 from '../images/portfolio/iot2.avif';
+import imagenIot3 from '../images/portfolio/iot3.avif';
+import imagenIot4 from '../images/portfolio/iot4.avif';
+import imagenIot5 from '../images/portfolio/iot5.avif';
+import imagenIot6 from '../images/portfolio/iot6.avif';
+import imagenIot7 from '../images/portfolio/iot7.avif';
+import imagenIot8 from '../images/portfolio/iot8.avif';
+import imagenIot9 from '../images/portfolio/iot9.avif';
+import imagenIot10 from '../images/portfolio/iot10.avif';
+
 
 const informacionPortafolio = () => {
     return [
+
+      {
+        id:crypto.randomUUID(),
+        nombre: 'Sistema de Riego Automatizado (IoT)',
+        tecnologia: 'MongoDB, Express, React, Node JS, Tailwind CSS',
+        enlace: 'https://viveroplantasyflores.vercel.app/',
+        estadoEnlace: 1,
+        imagenPrincipal: imagenIot1,
+        subImagenes: [
+          imagenIot1,
+          imagenIot2,
+          imagenIot3,
+          imagenIot4,
+          imagenIot5,
+          imagenIot6,
+          imagenIot7,
+          imagenIot8,
+          imagenIot9,
+          imagenIot10,
+        ]
+      },
         {
           id:crypto.randomUUID(),
           nombre: 'Dev X',
@@ -95,8 +127,9 @@ const informacionPortafolio = () => {
           id:crypto.randomUUID(),
           nombre: 'GuitArt',
           tecnologia: 'Remix JS, Strapi, PostgreSQL, Tailwind CSS',
-          enlace: 'https://guitart-remix.vercel.app/carrito',
-          estadoEnlace: 1,
+          // enlace: 'https://guitart-remix.vercel.app/carrito',
+          enlace: 'No disponible',
+          estadoEnlace: 0,
           imagenPrincipal: imagenGuitart,
           subImagenes: [
             imagenGuitart,
