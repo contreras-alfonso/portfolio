@@ -33,13 +33,13 @@ const Profile = () => {
             </div>
 
 
-            <a href="/docs/CV Alfonso Contreras Gómez.pdf" download="/docs/CV Alfonso Contreras Gómez.pdf" target="_blank" className="font-semibold cursor-pointer border border-primaryColor rounded-full relative inline-flex items-center justify-start overflow-hidden transition-all   group">
+            {/* <a href="/docs/CV Alfonso Contreras Gómez.pdf" download="/docs/CV Alfonso Contreras Gómez.pdf" target="_blank" className="font-semibold cursor-pointer border border-primaryColor rounded-full relative inline-flex items-center justify-start overflow-hidden transition-all   group">
               <span className="w-0 rounded bg-primaryColor absolute ease-out duration-500 transition-all group-hover:w-full group-hover:h-full z-1"></span>
               <span className=" text-white w-full group-hover:text-white z-10 pl-10 pr-3 uppercase">
               Descargar CV {''}
               </span>
               <span className="fa-sharp fa-solid fa-cloud-arrow-down bg-primaryColor rounded-full p-4 relative hover:z-20 text-white"></span>
-            </a>
+            </a> */}
           </div>
 
           <div className="xl:w-1/2 ">
